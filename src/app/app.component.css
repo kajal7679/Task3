@@ -1,0 +1,105 @@
+/* Body styling */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #eef1f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form and content */
+.form-group {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 450px;
+    margin: 60px auto;
+}
+
+/* Label styling */
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444444;
+    display: block;
+    margin-bottom: 12px;
+}
+
+/* Select dropdown styling */
+select.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+select.form-control:focus {
+    border-color: #0056b3;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745; /* Changed button color */
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Multiplication table header */
+h3 {
+    color: #28a745; /* Changed header color */
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Each table number heading */
+h4 {
+    color: #555555;
+    font-size: 18px;
+    text-align: left;
+    margin: 25px 0 12px 0;
+}
+
+/* Styling for the multiplication table list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa; /* Light grey */
+    border: 1px solid #dddddd;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for each list item */
+li:hover {
+    background-color: #e2e6ea; /* Darker grey on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 500px) {
+    .form-group {
+        width: 95%;
+    }
+}
